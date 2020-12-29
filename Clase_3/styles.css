@@ -1,0 +1,38 @@
+/* p{
+    color: red;
+}
+a {
+    color: inherit;
+   
+} */
+
+/*
+
+Etiqueta :1 
+classes y pseudoclasse : 10,
+Estilos en linea; 1000
+!important: Gana a todo
+*/
+
+/* important -> especificidad -> cascada*/
+#parrafo {
+    color: blueviolet
+}
+
+.parrafo{
+    color: red;
+}
+
+a{
+    color: inherit;
+}
+
+p {
+    color: green !important;
+}
+
+
+.parrafo-2 {
+    color: black !important;
+}
+

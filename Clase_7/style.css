@@ -1,0 +1,35 @@
+/* .title {
+    text-align: center;
+    font-size: 2em;
+}
+
+p {
+    font-size: 2m;
+} */
+
+/* .box1,
+.box2 {
+    width: 250px;
+    height: 250px;
+    margin: 1em auto;
+    font-size: 2.5em;
+    text-align: center;
+} */
+.box1 {
+    background-color: lightgreen;
+    position: relative;
+    top: 500px;
+    /* left: 50px;  */
+    /* el top y left tienen más preferencia que en bottom y right*/
+    /* bottom: 500px;
+    right: 200px; */
+    /* z-index: 1; si declaramos z-index automáticamente se dibuja por encima por tener un valor mayor que por el defecto */
+}
+
+/* .box2 {
+    background-color: lightcoral;
+    position: relative;
+}  */
+
+
+

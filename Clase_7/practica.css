@@ -1,0 +1,21 @@
+.container {
+    width: 90%;
+    margin: 3em auto;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img {
+    outline: 20px solid lightskyblue;
+    outline-offset: -50px;
+}
+
+.parrafo {
+    position: absolute;
+    left: 5;
+}
+
+
